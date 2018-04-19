@@ -1,0 +1,1048 @@
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> cov-build 2017.07 (build c7e331b562 p-milo-push-30112.651)
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> Coverity Build Capture (64-bit) version 2017.07 on Windows 10 (Unknown Edition number 101), 64-bit (build 16299)
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> Dumping from hostname : DESKTOP-BGLU001
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> Platform info: Windows 10 (Unknown Edition number 101), 64-bit (build 16299)
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> cov-build command: cov-build --dir cov-int mvn -DskipTests=true compile 
+2018-04-19T01:44:52.862538Z|cov-build|11684|info|> cov-build expanded command: cov-build --dir cov-int mvn -DskipTests=true compile 
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> build command: C:\development\maven\bin\mvn.cmd -DskipTests=true compile
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> thunk command: mvn.cmd -DskipTests=true compile
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_BUILD_COMMAND to "C:\development\maven\bin\mvn.cmd"  -DskipTests=true compile
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_ORIG_BUILD_COMMAND to mvn.cmd -DskipTests=true compile
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir cov-int mvn -DskipTests=true compile 
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set UseSharedCompilation to false.
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to inject
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_BIN to C:/development/cov-analysis-win64-2017.07/bin
+2018-04-19T01:44:52.894553Z|cov-build|11684|info|> Set COVERITY_SITE_CC to apt;c++;cc;cl;clang;clang++;csc;csc2;devenv;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;java;javac;javaw;ld;link;msbuild
+2018-04-19T01:44:52.895555Z|cov-build|11684|info|> Set COVERITY_TEMP to C:/Users/TK/AppData/Local/Temp/cov-TK/13361355902a60e65ada973645fed519
+2018-04-19T01:44:52.895555Z|cov-build|11684|info|> Set COVERITY_COMMON_TEMP to C:/Users/TK/AppData/Local/Temp
+2018-04-19T01:44:52.895555Z|cov-build|11684|info|> Set COVERITY_IDIR to C:/myWebProject/bankwebapp/cov-int
+2018-04-19T01:44:52.895555Z|cov-build|11684|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-10ad471df0a46c6216484f3f34d46048.s
+2018-04-19T01:44:52.895555Z|cov-build|11684|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-10ad471df0a46c6216484f3f34d46048.m
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Set COVERITY_OUTPUT_ENCODING to windows-1252
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Set COVERITY_SYSTEM_ENCODING to windows-1252
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Set COVERITY_EMIT to C:/myWebProject/bankwebapp/cov-int/emit
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Set COVERITY_EMIT to C:/myWebProject/bankwebapp/cov-int/emit
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Append to PATH C:\development\cov-analysis-win64-2017.07\jars
+2018-04-19T01:44:52.896557Z|cov-build|11684|info|> Setting COVERITY_LD_LIBRARY_PATH to C:\development\cov-analysis-win64-2017.07\jars
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Set COVERITY_USING_CYGWIN to False
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Dumping configuration:
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> User/default configuration:
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Configuration read from: command-line
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config\coverity_config.xml
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>     Node: prevent
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>       Node: dir Value: C:\myWebProject\bankwebapp\cov-int
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\coverity_config.xml
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-gcc-config-0/coverity_config.xml
+2018-04-19T01:44:52.897556Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-g++-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-gcc-config-1/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-gcc-config-2/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-g++-config-1/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-g++-config-2/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-ld-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-gcc-config-3/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-g++-config-3/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-javac-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-java-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-apt-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-javaw-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-jsp-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-android-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-web-app-config-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-msvc-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-msvc_devenv-config-0/coverity_config.xml
+2018-04-19T01:44:52.898557Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-msvc_msbuild-config-0/coverity_config.xml
+2018-04-19T01:44:52.899586Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-msvc_link-config-0/coverity_config.xml
+2018-04-19T01:44:52.899586Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-csc-config-0/coverity_config.xml
+2018-04-19T01:44:52.899586Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-csc-config-1/coverity_config.xml
+2018-04-19T01:44:52.899586Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-clangcc-config-0/coverity_config.xml
+2018-04-19T01:44:52.900559Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-clangcxx-config-0/coverity_config.xml
+2018-04-19T01:44:52.900559Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-javascript-config-0/coverity_config.xml
+2018-04-19T01:44:52.901560Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-html-config-0/coverity_config.xml
+2018-04-19T01:44:52.901560Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-ruby-config-0/coverity_config.xml
+2018-04-19T01:44:52.901560Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-php-config-0/coverity_config.xml
+2018-04-19T01:44:52.901560Z|cov-build|11684|info|>     Node: include Value: C:\development\cov-analysis-win64-2017.07\config/template-python-config-0/coverity_config.xml
+2018-04-19T01:44:52.901560Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.901560Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-0\coverity_config.xml
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>         Node: comp_name Value: gcc
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>         Node: comp_translator Value: gcc
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.902560Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: id Value: gcc-gcc-.*
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: id Value: g++-gcc-.*
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: id Value: g++cc-gcc-.*
+2018-04-19T01:44:52.903560Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-0\coverity_config.xml
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.904561Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: comp_name Value: g++
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: comp_translator Value: g++
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: id Value: g++-g++-.*
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-0/../user_nodefs.h
+2018-04-19T01:44:52.905561Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|>         Node: id Value: g++cc-g++-.*
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-0/../user_nodefs.h
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.906563Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-1\coverity_config.xml
+2018-04-19T01:44:52.907564Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.907564Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.907564Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.907564Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.907564Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.907564Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.908563Z|cov-build|11684|info|>         Node: comp_name Value: gcc-3
+2018-04-19T01:44:52.908563Z|cov-build|11684|info|>         Node: comp_translator Value: gcc
+2018-04-19T01:44:52.908563Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.908563Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.908563Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.908563Z|cov-build|11684|info|>         Node: id Value: gcc-gcc-3-.*
+2018-04-19T01:44:52.909564Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-1/../user_nodefs.h
+2018-04-19T01:44:52.909564Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.909564Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.909564Z|cov-build|11684|info|>         Node: id Value: g++-gcc-3-.*
+2018-04-19T01:44:52.909564Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-1/../user_nodefs.h
+2018-04-19T01:44:52.909564Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.910565Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.910565Z|cov-build|11684|info|>         Node: id Value: g++cc-gcc-3-.*
+2018-04-19T01:44:52.910565Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-1/../user_nodefs.h
+2018-04-19T01:44:52.910565Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.910565Z|cov-build|11684|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2018-04-19T01:44:52.911566Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.911566Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-2\coverity_config.xml
+2018-04-19T01:44:52.911566Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.911566Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.911566Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.911566Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>         Node: comp_name Value: gcc-4
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>         Node: comp_translator Value: gcc
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.912574Z|cov-build|11684|info|>         Node: id Value: gcc-gcc-4-.*
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-2/../user_nodefs.h
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>         Node: id Value: g++-gcc-4-.*
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-2/../user_nodefs.h
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.913582Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.914569Z|cov-build|11684|info|>         Node: id Value: g++cc-gcc-4-.*
+2018-04-19T01:44:52.914569Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-2/../user_nodefs.h
+2018-04-19T01:44:52.914569Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.914569Z|cov-build|11684|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2018-04-19T01:44:52.914569Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.914569Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-1\coverity_config.xml
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>         Node: comp_name Value: g++-3
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>         Node: comp_translator Value: g++
+2018-04-19T01:44:52.915598Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.916574Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.916574Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.916574Z|cov-build|11684|info|>         Node: id Value: g++-g++-3-.*
+2018-04-19T01:44:52.916574Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-1/../user_nodefs.h
+2018-04-19T01:44:52.916574Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.916574Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|>         Node: id Value: g++cc-g++-3-.*
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-1/../user_nodefs.h
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-2\coverity_config.xml
+2018-04-19T01:44:52.917571Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>         Node: comp_name Value: g++-4
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>         Node: comp_translator Value: g++
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.918575Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>         Node: id Value: g++-g++-4-.*
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-2/../user_nodefs.h
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>         Node: id Value: g++cc-g++-4-.*
+2018-04-19T01:44:52.919576Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-2/../user_nodefs.h
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-ld-config-0\coverity_config.xml
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.920586Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>         Node: comp_name Value: ld
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>         Node: comp_translator Value: ld
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.921573Z|cov-build|11684|info|>         Node: id Value: ld-ld-.*
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-ld-config-0/../user_nodefs.h
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-3\coverity_config.xml
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.922576Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>         Node: comp_name Value: cc
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>         Node: comp_translator Value: gcc
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.923580Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.924578Z|cov-build|11684|info|>         Node: id Value: gcc-cc-.*
+2018-04-19T01:44:52.924578Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-3/../user_nodefs.h
+2018-04-19T01:44:52.924578Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.924578Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.924578Z|cov-build|11684|info|>         Node: id Value: g++-cc-.*
+2018-04-19T01:44:52.924578Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-3/../user_nodefs.h
+2018-04-19T01:44:52.925578Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.925578Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.925578Z|cov-build|11684|info|>         Node: id Value: g++cc-cc-.*
+2018-04-19T01:44:52.925578Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-gcc-config-3/../user_nodefs.h
+2018-04-19T01:44:52.925578Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.925578Z|cov-build|11684|info|>   Node: md5 Value: 5ab1d465abf1e699248ecdb7fe5931c0
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-3\coverity_config.xml
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.926582Z|cov-build|11684|info|>         Node: comp_name Value: c++
+2018-04-19T01:44:52.927583Z|cov-build|11684|info|>         Node: comp_translator Value: g++
+2018-04-19T01:44:52.927583Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.927583Z|cov-build|11684|info|>         Node: comp_generic Value: gnu
+2018-04-19T01:44:52.927583Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.927583Z|cov-build|11684|info|>         Node: id Value: g++-c++-.*
+2018-04-19T01:44:52.928585Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-3/../user_nodefs.h
+2018-04-19T01:44:52.928585Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.928585Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.928585Z|cov-build|11684|info|>         Node: id Value: g++cc-c++-.*
+2018-04-19T01:44:52.928585Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-g++-config-3/../user_nodefs.h
+2018-04-19T01:44:52.928585Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.929587Z|cov-build|11684|info|>   Node: md5 Value: 92107d6a420ac9dd06caaaf4fa667276
+2018-04-19T01:44:52.929587Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.929587Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-javac-config-0\coverity_config.xml
+2018-04-19T01:44:52.929587Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.929587Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>         Node: comp_name Value: javac
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>         Node: comp_translator Value: javac
+2018-04-19T01:44:52.930587Z|cov-build|11684|info|>         Node: comp_lang Value: Static Java
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|>         Node: comp_generic Value: java
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|>         Node: id Value: javac-javac-.*
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.931587Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-java-config-0\coverity_config.xml
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>         Node: comp_name Value: java
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>         Node: comp_translator Value: java
+2018-04-19T01:44:52.932589Z|cov-build|11684|info|>         Node: comp_lang Value: Static Java
+2018-04-19T01:44:52.933589Z|cov-build|11684|info|>         Node: comp_generic Value: java
+2018-04-19T01:44:52.933589Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.933589Z|cov-build|11684|info|>         Node: id Value: java-java-.*
+2018-04-19T01:44:52.933589Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.933589Z|cov-build|11684|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2018-04-19T01:44:52.933589Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-apt-config-0\coverity_config.xml
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.934589Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>         Node: comp_name Value: apt
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>         Node: comp_translator Value: apt
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>         Node: comp_lang Value: Static Java
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>         Node: comp_generic Value: java
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>         Node: id Value: apt-apt-.*
+2018-04-19T01:44:52.935589Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-javaw-config-0\coverity_config.xml
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.936590Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.937592Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.937592Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.937592Z|cov-build|11684|info|>         Node: comp_name Value: javaw
+2018-04-19T01:44:52.937592Z|cov-build|11684|info|>         Node: comp_translator Value: javaw
+2018-04-19T01:44:52.937592Z|cov-build|11684|info|>         Node: comp_lang Value: Static Java
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|>         Node: comp_generic Value: java
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|>         Node: id Value: javaw-javaw-.*
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.938592Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-jsp-config-0\coverity_config.xml
+2018-04-19T01:44:52.939593Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.939593Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.939593Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.939593Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.939593Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.939593Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.940593Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2018-04-19T01:44:52.940593Z|cov-build|11684|info|>         Node: comp_translator Value: jsp
+2018-04-19T01:44:52.940593Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.940593Z|cov-build|11684|info|>         Node: comp_generic Value: java
+2018-04-19T01:44:52.940593Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2018-04-19T01:44:52.940593Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.941594Z|cov-build|11684|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2018-04-19T01:44:52.941594Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.941594Z|cov-build|11684|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2018-04-19T01:44:52.941594Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.941594Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-android-config-0\coverity_config.xml
+2018-04-19T01:44:52.941594Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.942595Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.942595Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.942595Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.942595Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.942595Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.943598Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2018-04-19T01:44:52.943598Z|cov-build|11684|info|>         Node: comp_translator Value: android
+2018-04-19T01:44:52.943598Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.943598Z|cov-build|11684|info|>         Node: comp_generic Value: java
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.xml$
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|>   Node: md5 Value: 07be021ce31fbf4d039bdd2f06118c8b
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.944598Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-web-app-config-config-0\coverity_config.xml
+2018-04-19T01:44:52.945598Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.945598Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.945598Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.945598Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.945598Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.945598Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.946597Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-web-app-config-0
+2018-04-19T01:44:52.946597Z|cov-build|11684|info|>         Node: comp_translator Value: web-app-config
+2018-04-19T01:44:52.946597Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.946597Z|cov-build|11684|info|>         Node: comp_generic Value: web_app_config
+2018-04-19T01:44:52.947597Z|cov-build|11684|info|>         Node: file_include_pattern Value: a^
+2018-04-19T01:44:52.947597Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.947597Z|cov-build|11684|info|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-0-.*
+2018-04-19T01:44:52.947597Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.947597Z|cov-build|11684|info|>   Node: md5 Value: 4b5ee114698aa398279ca05a07bbd880
+2018-04-19T01:44:52.948593Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.948593Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-msvc-config-0\coverity_config.xml
+2018-04-19T01:44:52.948593Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.948593Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.949601Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.949601Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.949601Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.949601Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.949601Z|cov-build|11684|info|>         Node: comp_name Value: cl
+2018-04-19T01:44:52.950600Z|cov-build|11684|info|>         Node: comp_translator Value: msvc
+2018-04-19T01:44:52.950600Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.950600Z|cov-build|11684|info|>         Node: comp_generic Value: msvc
+2018-04-19T01:44:52.950600Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.951600Z|cov-build|11684|info|>         Node: id Value: msvc-cl-.*
+2018-04-19T01:44:52.951600Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-msvc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.951600Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.951600Z|cov-build|11684|info|>           Node: var_name Value: cov_instrument_config_version
+2018-04-19T01:44:52.952624Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.952624Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.952624Z|cov-build|11684|info|>             Node: var_value Value: 3
+2018-04-19T01:44:52.952624Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.953600Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-04-19T01:44:52.953600Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.953600Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.953600Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-04-19T01:44:52.954625Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.954625Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_header_path
+2018-04-19T01:44:52.954625Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.955626Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.955626Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2018-04-19T01:44:52.955626Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.955626Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_name
+2018-04-19T01:44:52.956627Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.956627Z|cov-build|11684|info|>             Node: platform_name Value: x64
+2018-04-19T01:44:52.956627Z|cov-build|11684|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-04-19T01:44:52.957628Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.957628Z|cov-build|11684|info|>             Node: platform_name Value: x86
+2018-04-19T01:44:52.957628Z|cov-build|11684|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-04-19T01:44:52.957628Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.958627Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_path
+2018-04-19T01:44:52.958627Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.958627Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.958627Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-04-19T01:44:52.959602Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.959602Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.959602Z|cov-build|11684|info|>         Node: id Value: msvc_cxx-cl-.*
+2018-04-19T01:44:52.959602Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-msvc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.960630Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.960630Z|cov-build|11684|info|>           Node: var_name Value: cov_instrument_config_version
+2018-04-19T01:44:52.960630Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.961603Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.961603Z|cov-build|11684|info|>             Node: var_value Value: 3
+2018-04-19T01:44:52.961603Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.961603Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-04-19T01:44:52.962607Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.962607Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.962607Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-04-19T01:44:52.963604Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.963604Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_header_path
+2018-04-19T01:44:52.963604Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.963604Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.964610Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2018-04-19T01:44:52.964610Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.964610Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_name
+2018-04-19T01:44:52.965611Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.965611Z|cov-build|11684|info|>             Node: platform_name Value: x64
+2018-04-19T01:44:52.965611Z|cov-build|11684|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-04-19T01:44:52.965611Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.965611Z|cov-build|11684|info|>             Node: platform_name Value: x86
+2018-04-19T01:44:52.966611Z|cov-build|11684|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-04-19T01:44:52.966611Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.966611Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_path
+2018-04-19T01:44:52.966611Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.966611Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.967613Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-04-19T01:44:52.967613Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.967613Z|cov-build|11684|info|>   Node: md5 Value: 7be94be8fa739ed4bbd4d6878dcf05b2
+2018-04-19T01:44:52.968611Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.968611Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-msvc_devenv-config-0\coverity_config.xml
+2018-04-19T01:44:52.968611Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.968611Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.969612Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.969612Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.969612Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.969612Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.969612Z|cov-build|11684|info|>         Node: comp_name Value: devenv
+2018-04-19T01:44:52.969612Z|cov-build|11684|info|>         Node: comp_translator Value: msvc_devenv
+2018-04-19T01:44:52.970613Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.970613Z|cov-build|11684|info|>         Node: comp_generic Value: msvc
+2018-04-19T01:44:52.970613Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.970613Z|cov-build|11684|info|>         Node: id Value: msvc_devenv-devenv-.*
+2018-04-19T01:44:52.970613Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-msvc_devenv-config-0/../user_nodefs.h
+2018-04-19T01:44:52.971613Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.971613Z|cov-build|11684|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
+2018-04-19T01:44:52.971613Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.972617Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-msvc_msbuild-config-0\coverity_config.xml
+2018-04-19T01:44:52.972617Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.972617Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.972617Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.973638Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.973638Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.973638Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.973638Z|cov-build|11684|info|>         Node: comp_name Value: msbuild
+2018-04-19T01:44:52.973638Z|cov-build|11684|info|>         Node: comp_translator Value: msvc_msbuild
+2018-04-19T01:44:52.973638Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|>         Node: comp_generic Value: msvc
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-msvc_msbuild-config-0/../user_nodefs.h
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
+2018-04-19T01:44:52.974639Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-msvc_link-config-0\coverity_config.xml
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.975613Z|cov-build|11684|info|>         Node: comp_name Value: link
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>         Node: comp_translator Value: msvc_link
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>         Node: comp_generic Value: msvc
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>         Node: id Value: msvc_link-link-.*
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-msvc_link-config-0/../user_nodefs.h
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.976624Z|cov-build|11684|info|>           Node: var_name Value: cov_instrument_config_version
+2018-04-19T01:44:52.977613Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.977613Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.977613Z|cov-build|11684|info|>             Node: var_value Value: 3
+2018-04-19T01:44:52.977613Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.977613Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-04-19T01:44:52.977613Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_header_path
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.978623Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_name
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>             Node: platform_name Value: x64
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>             Node: platform_name Value: x86
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-04-19T01:44:52.979614Z|cov-build|11684|info|>         Node: instrument_variable
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>           Node: var_name Value: cov_lib_path
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>           Node: cond_platform_value
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>             Node: platform_name Value: all
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>   Node: md5 Value: b934bab21dd57b9bd4e87b6bc04c90ff
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-csc-config-0\coverity_config.xml
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.980613Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: comp_name Value: csc
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: comp_translator Value: csc
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: comp_lang Value: C#
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: comp_generic Value: csc
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: id Value: csc-csc-.*
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-csc-config-1\coverity_config.xml
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.981615Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: comp_name Value: csc2
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: comp_translator Value: csc
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: comp_lang Value: C#
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: comp_generic Value: csc
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: id Value: csc-csc2-.*
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-clangcc-config-0\coverity_config.xml
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.982615Z|cov-build|11684|info|>         Node: comp_name Value: clang
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: comp_translator Value: clangcc
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: comp_generic Value: clang
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: id Value: clangcc-clang-.*
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: id Value: clangcxx-clang-.*
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.983617Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: id Value: clangcxxcc-clang-.*
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: id Value: clangobjc-clang-.*
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: id Value: clangobjcxx-clang-.*
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-04-19T01:44:52.984618Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>   Node: md5 Value: 15fd1279f5d22c97f5ebadaac9bf1e6b
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-clangcxx-config-0\coverity_config.xml
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>         Node: comp_name Value: clang++
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>         Node: comp_translator Value: clangcxx
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>         Node: comp_lang Value: C/C++
+2018-04-19T01:44:52.985618Z|cov-build|11684|info|>         Node: comp_generic Value: clang
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: id Value: clangcxx-clang++-.*
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: id Value: clangcxxcc-clang++-.*
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: id Value: clangobjc-clang++-.*
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-04-19T01:44:52.986619Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: id Value: clangobjcxx-clang++-.*
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: opt_preinclude_file Value: C:\development\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>   Node: md5 Value: a5fffed9db920f7281ac5687f6514630
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-javascript-config-0\coverity_config.xml
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: comp_translator Value: javascript
+2018-04-19T01:44:52.987621Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>         Node: comp_generic Value: javascript
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib)$
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>   Node: md5 Value: 27a00c60dd27cc03e3adb984b7a5dffd
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-html-config-0\coverity_config.xml
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.988620Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: comp_translator Value: html
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: comp_generic Value: javascript
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>   Node: md5 Value: 19397d11982615e58d756dc918e6d3c2
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-ruby-config-0\coverity_config.xml
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.989621Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: comp_translator Value: ruby
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: comp_generic Value: ruby
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.rb$
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>   Node: md5 Value: e05b5d016abf502f4374682646f80501
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-php-config-0\coverity_config.xml
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.990622Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: comp_translator Value: php
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: comp_generic Value: php
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.php$
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|>   Node: md5 Value: 8bf88b4c45e978fe7f5e31c6d61cde3a
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|> 
+2018-04-19T01:44:52.991623Z|cov-build|11684|info|> Configuration read from: C:\development\cov-analysis-win64-2017.07\config\template-python-config-0\coverity_config.xml
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|> Node: coverity
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>   Node: cit_version Value: 1
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>   Node: config
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>     Node: build
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>       Node: compiler
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: template_compiler Value: true
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: comp_translator Value: python
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: comp_generic Value: python
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: file_include_pattern Value: ^.*\.py$
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>       Node: options
+2018-04-19T01:44:52.992624Z|cov-build|11684|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2018-04-19T01:44:52.993625Z|cov-build|11684|info|>         Node: begin_command_line_config
+2018-04-19T01:44:52.993625Z|cov-build|11684|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2018-04-19T01:44:52.993625Z|cov-build|11684|info|> 
+2018-04-19T01:44:55.867468Z|cov-internal-capture|1948|info|> Running build command: "C:\development\maven\bin\mvn.cmd"  -DskipTests=true compile
+2018-04-19T01:44:55.867468Z|cov-internal-capture|1948|info|> Launching in directory C:/myWebProject/bankwebapp
+2018-04-19T01:44:56.125166Z|cov-internal-capture|1948|info|> EXECUTING: C:\WINDOWS\system32\cmd.exe /c ""C:\development\maven\bin\mvn.cmd"  -DskipTests=true compile"
+2018-04-19T01:44:56.628063Z|cov-internal-capture|1948|info|> EXECUTING: "C:\Program Files\Java\jdk1.8.0_162\bin\java.exe"             -classpath "C:\development\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"   "-Dclassworlds.conf=C:\development\maven\bin\..\bin\m2.conf"   "-Dmaven.home=C:\development\maven\bin\.."   "-Dlibrary.jansi.path=C:\development\maven\bin\..\lib\jansi-native"   "-Dmaven.multiModuleProjectDirectory=C:\myWebProject\bankwebapp"   org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=true compile
+2018-04-19T01:44:56.678928Z|cov-internal-capture|1948|info|> CWD: C:\myWebProject\bankwebapp\
+2018-04-19T01:44:56.678928Z|cov-internal-capture|1948|info|> COMPILING: C:\development\cov-analysis-win64-2017.07\bin\cov-translate.exe --inject-capture-argfile C:\Users\TK\AppData\Local\Temp\cov-TK\13361355902a60e65ada973645fed519\0777ea16d46ae7e937b6fe0966767e9c "C:\Program Files\Java\jdk1.8.0_162\bin\java.exe"             -classpath "C:\development\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"   "-Dclassworlds.conf=C:\development\maven\bin\..\bin\m2.conf"   "-Dmaven.home=C:\development\maven\bin\.."   "-Dlibrary.jansi.path=C:\development\maven\bin\..\lib\jansi-native"   "-Dmaven.multiModuleProjectDirectory=C:\myWebProject\bankwebapp"   org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=true compile
+2018-04-19T01:44:56.678928Z|cov-internal-capture|1948|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-10ad471df0a46c6216484f3f34d46048.s
+2018-04-19T01:45:02.439147Z|cov-translate|1004|output|> Encountered compiler c:/program files/java/jdk1.8.0_162/bin/java for the first time, configuring it
+2018-04-19T01:45:02.569236Z|cov-translate|1004|output|> * Configuring c:\program files\java\jdk1.8.0_162\bin\java as a Java compiler
+2018-04-19T01:45:08.899072Z|cov-translate|1004|output|> * Configuring c:\program files\java\jdk1.8.0_162\bin\javac as a Java compiler
+2018-04-19T01:45:09.186456Z|cov-translate|1004|output|> [WARNING] Template config template-java-config-0 already exists for java and will be reused. 
+2018-04-19T01:45:09.186456Z|cov-translate|1004|output|> [WARNING] Template config template-apt-config-0 already exists for apt and will be reused. 
+2018-04-19T01:45:09.186456Z|cov-translate|1004|output|> [WARNING] Template config template-javaw-config-0 already exists for javaw and will be reused. 
+2018-04-19T01:45:09.224921Z|cov-translate|1004|output|> * Configuring c:\program files\java\jdk1.8.0_162\bin\javaw as a Java compiler
+2018-04-19T01:45:09.620098Z|cov-translate|1004|output|> Added template compiler configuration instance C:/myWebProject/bankwebapp/cov-int/emit/DESKTOP-BGLU001/config/0817e36f938d52a1d93ec24b62080655/coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: include Value: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\java-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: include Value: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\javac-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: include Value: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\template-jsp-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: include Value: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\template-android-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: include Value: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\template-web-app-config-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: include Value: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\javaw-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\java-config-0\coverity_config.xml
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>     Node: build
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>       Node: compiler
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_name Value: java
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_dir Value: c:\program files\java\jdk1.8.0_162\bin
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_translator Value: java
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_lang Value: Java
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_front_end Value: cov-emit-java
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_desc Value: Oracle Java compiler (java)
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: comp_generic Value: java
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: id Value: java-java-1.8-0817e36f938d52a1d93ec24b62080655-0
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: version Value: 1.8
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: is_compiler Value: true
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: is_linker Value: false
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>       Node: options
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: id Value: java-java-1.8-0817e36f938d52a1d93ec24b62080655-0
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: template_config_option_id Value: java-java-.*
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: inject_capture
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: intern_trans Value: java_capture_inject
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.emit=$COVERITY_EMIT$
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.build_log=$COVERITY_OUTPUT$
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.force.debug=true
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.executable_name=$NATIVE_COMPILER$
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>         Node: expand
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: replace_arg_regex
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>               Node: with Value: --coverity_resp_file=$1
+2018-04-19T01:45:09.639129Z|cov-translate|1004|output|>             Node: replace_arg_regex
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>               Node: replace Value: @+(.*)
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>               Node: with Value: --coverity_resp_file=$1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: intern_split_response_file_fn Value: line_split
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: pre_trans
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: intern_trans Value: java_pre_translate
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: begin_command_line_config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: md5 Value: c1dae8466e09cbcd88c1642c51221644
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\javac-config-0\coverity_config.xml
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>     Node: build
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: compiler
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_name Value: javac
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_dir Value: c:\program files\java\jdk1.8.0_162\bin
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_translator Value: javac
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_lang Value: Java
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_front_end Value: cov-emit-java
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_desc Value: Oracle Java compiler (javac)
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_generic Value: java
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: id Value: javac-javac-1.8-0817e36f938d52a1d93ec24b62080655-0
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: version Value: 1.8
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: is_compiler Value: true
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: is_linker Value: false
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: id Value: javac-javac-1.8-0817e36f938d52a1d93ec24b62080655-0
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: template_config_option_id Value: javac-javac-.*
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: inject_capture
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: intern_trans Value: javac_capture_inject
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: prepend_arg Value: -J-Dcoverity.emit=$COVERITY_EMIT$
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: prepend_arg Value: -J-Dcoverity.build_log=$COVERITY_OUTPUT$
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: prepend_arg Value: -J-Dcoverity.force.debug=true
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: prepend_arg Value: -J-Dcoverity.executable_name=$NATIVE_COMPILER$
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: expand
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: replace_arg_regex
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>               Node: with Value: --coverity_resp_file=$1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: replace_arg_regex
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>               Node: replace Value: @+(.*)
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>               Node: with Value: --coverity_resp_file=$1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: intern_split_response_file_fn Value: line_split
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: pre_trans
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>             Node: intern_trans Value: java_pre_translate
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: begin_command_line_config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: md5 Value: 8e31a59b134d282fa85917387cd6702a
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\template-jsp-config-0\coverity_config.xml
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>     Node: build
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: compiler
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: template_compiler Value: true
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_name Value: cov-filesystem-capture-jsp
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_translator Value: jsp
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_generic Value: java
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: id Value: jsp-cov-filesystem-capture-jsp-.*
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: begin_command_line_config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: md5 Value: b99a2790c85c4938a8386681f69b0e56
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\template-android-config-0\coverity_config.xml
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>     Node: build
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: compiler
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: template_compiler Value: true
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_name Value: cov-filesystem-capture-android
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_translator Value: android
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_generic Value: java
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: id Value: android-cov-filesystem-capture-android-.*
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: begin_command_line_config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: md5 Value: a681ed1586c2ef93984cd2a83198f0f5
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\template-web-app-config-config-0\coverity_config.xml
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>     Node: build
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: compiler
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: template_compiler Value: true
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_name Value: cov-filesystem-capture-web-app-config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_translator Value: web-app-config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_lang Value: Non Compiled
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_generic Value: web_app_config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: options
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-.*
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: begin_command_line_config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: md5 Value: 5ff84f3159dea4fe9570a3948bd7cc36
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Configuration read from: C:\myWebProject\bankwebapp\cov-int\emit\DESKTOP-BGLU001\config\0817e36f938d52a1d93ec24b62080655\javaw-config-0\coverity_config.xml
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|> Node: coverity
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: cit_version Value: 1
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>   Node: config
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>     Node: build
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>       Node: compiler
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_name Value: javaw
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_dir Value: c:\program files\java\jdk1.8.0_162\bin
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_translator Value: javaw
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_lang Value: Java
+2018-04-19T01:45:09.640112Z|cov-translate|1004|output|>         Node: comp_front_end Value: cov-emit-java
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: comp_desc Value: Oracle Java compiler (javaw)
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: comp_generic Value: java
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: id Value: javaw-javaw-1.8-0817e36f938d52a1d93ec24b62080655-0
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: version Value: 1.8
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: is_compiler Value: true
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: is_linker Value: false
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>       Node: options
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: id Value: javaw-javaw-1.8-0817e36f938d52a1d93ec24b62080655-0
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: template_config_option_id Value: javaw-javaw-.*
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: inject_capture
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: intern_trans Value: java_capture_inject
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.emit=$COVERITY_EMIT$
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.build_log=$COVERITY_OUTPUT$
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.force.debug=true
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: prepend_arg Value: -Dcoverity.executable_name=$NATIVE_COMPILER$
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: expand
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: replace_arg_regex
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>               Node: with Value: --coverity_resp_file=$1
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: replace_arg_regex
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>               Node: replace Value: @+(.*)
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>               Node: with Value: --coverity_resp_file=$1
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: intern_split_response_file_fn Value: line_split
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: pre_trans
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>           Node: options
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>             Node: intern_trans Value: java_pre_translate
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>         Node: begin_command_line_config
+2018-04-19T01:45:09.641113Z|cov-translate|1004|output|>   Node: md5 Value: 83173d29259273d2d6859759ddc36ea0
+2018-04-19T01:45:09.687873Z|cov-translate|1004|output|> 
+2018-04-19T01:45:09.787292Z|cov-internal-capture|1948|info|> EXECUTING: "C:\Program Files\Java\jdk1.8.0_162\bin\java.exe" -javaagent:C:\development\cov-analysis-win64-2017.07\jars\capture-bci.jar -Dcoverity.props=C:\Users\TK\AppData\Local\Temp\cov-TK\13361355902a60e65ada973645fed519\c0680a1b77f721d8afdc2425b7fbf8c7.java-cap.properties -classpath "C:\development\maven\bin\..\boot\plexus-classworlds-2.5.2.jar" "-Dclassworlds.conf=C:\development\maven\bin\..\bin\m2.conf" "-Dmaven.home=C:\development\maven\bin\.." "-Dlibrary.jansi.path=C:\development\maven\bin\..\lib\jansi-native" "-Dmaven.multiModuleProjectDirectory=C:\myWebProject\bankwebapp" org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=true compile
+Intercepted JVM info: Vendor=Oracle Corporation, version=1.8.0_162, runtime=1.8.0_162-b12, platform=Windows 10, architecture=amd64, classpath=C:\development\maven\bin\..\boot\plexus-classworlds-2.5.2.jar;C:\development\cov-analysis-win64-2017.07\jars\capture-bci.jar
+Java compiler call stack:
+ com.coverity.capture.sandbox.InstrumentationSandbox.callPreExecute
+ com.sun.tools.javac.api.JavacTaskImpl.call
+ org.codehaus.plexus.compiler.javac.JavaxToolsCompiler.compileInProcess
+ org.codehaus.plexus.compiler.javac.JavacCompiler.performCompile
+ org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute
+ org.apache.maven.plugin.compiler.CompilerMojo.execute
+ org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo
+ org.apache.maven.lifecycle.internal.MojoExecutor.execute
+ org.apache.maven.lifecycle.internal.MojoExecutor.execute
+ org.apache.maven.lifecycle.internal.MojoExecutor.execute
+ org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject
+ org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject
+ org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build
+ org.apache.maven.lifecycle.internal.LifecycleStarter.execute
+ org.apache.maven.DefaultMaven.doExecute
+ org.apache.maven.DefaultMaven.doExecute
+ org.apache.maven.DefaultMaven.execute
+ org.apache.maven.cli.MavenCli.execute
+ org.apache.maven.cli.MavenCli.doMain
+ org.apache.maven.cli.MavenCli.main
+ sun.reflect.NativeMethodAccessorImpl.invoke0
+ sun.reflect.NativeMethodAccessorImpl.invoke
+ sun.reflect.DelegatingMethodAccessorImpl.invoke
+ java.lang.reflect.Method.invoke
+ org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced
+ org.codehaus.plexus.classworlds.launcher.Launcher.launch
+ org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode
+ org.codehaus.plexus.classworlds.launcher.Launcher.main
+Saw java compiler invocation with args: -d C:\myWebProject\bankwebapp\target\classes -classpath C:\myWebProject\bankwebapp\target\classes;C:\development\maven-repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\development\maven-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\development\maven-repo\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\development\maven-repo\javax\mail\javax.mail-api\1.6.0\javax.mail-api-1.6.0.jar;C:\development\maven-repo\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\development\maven-repo\javax\activation\activation\1.1\activation-1.1.jar;C:\development\maven-repo\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\development\maven-repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\development\maven-repo\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar; -sourcepath C:\myWebProject\bankwebapp\src\main\java;C:\myWebProject\bankwebapp\target\generated-sources\annotations; -s C:\myWebProject\bankwebapp\target\generated-sources\annotations -g -nowarn -target 1.8 -source 1.8 /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/LoginServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/UserRole.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/commons/Constants.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/ClientTransactionDAOImpl.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/ClientTransaction.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/ClientTransactionDAO.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/ClientInfoDAO.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/ClientAccountDAOImpl.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/util/AccountNumberGenerator.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/TransactionCodesDAO.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/User.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/RegisterServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/ClientAccountDAO.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/ClientAccount.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/security/AuthenticationUtils.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/UserRoleDAOImpl.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/UserDAO.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/UserStatus.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/EmailService.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/NewAccountServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/AbstractIdEntity.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/ClientInfoDAOImpl.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/TransactionCodeGenerator.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/UserDAOImpl.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/AbstractDAOImpl.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/StaffDashboardServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/TransactionCodesDAOImp.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/NewTransactionServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/Role.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/ServletPaths.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/DefaultServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/servlet/ClientDashboardServlet.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/ClientInfo.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/EmailServiceImp.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/commons/ServiceException.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/commons/StringUtils.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/model/TransactionStatus.java /C:/myWebProject/bankwebapp/src/main/java/sg/edu/sutd/bank/webapp/service/UserRoleDAO.java
+and envvars: CLASSPATH=(unset) JAVA_HOME=C:\Program Files\Java\jdk1.8.0_162
+Running first half cov-emit-java with arguments: --fail-stop c:\program files\java\jdk1.8.0_162\bin\java.exe --source 1.8 --javac-version 1.8 --no-compiler-outputs --output-dir C:\myWebProject\bankwebapp\target\classes --encoding windows-1252 --unsupported-encoding-warning --timestamp-before-native-run 1524102348 --tolerate-missing-jars --invocid-file C:\myWebProject\bankwebapp\cov-int\tmp\cej337288001852680012-id.txt --classpath C:\myWebProject\bankwebapp\target\classes;C:\development\maven-repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\development\maven-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\development\maven-repo\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\development\maven-repo\javax\mail\javax.mail-api\1.6.0\javax.mail-api-1.6.0.jar;C:\development\maven-repo\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\development\maven-repo\javax\activation\activation\1.1\activation-1.1.jar;C:\development\maven-repo\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\development\maven-repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\development\maven-repo\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar --sourcepath C:\myWebProject\bankwebapp\src\main\java;C:\myWebProject\bankwebapp\target\generated-sources\annotations --bootclasspath C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\access-bridge-64.jar C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\LoginServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\UserRole.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\commons\Constants.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientTransactionDAOImpl.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\ClientTransaction.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientTransactionDAO.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientInfoDAO.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientAccountDAOImpl.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\util\AccountNumberGenerator.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\TransactionCodesDAO.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\User.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\RegisterServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientAccountDAO.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\ClientAccount.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\security\AuthenticationUtils.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserRoleDAOImpl.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserDAO.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\UserStatus.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\EmailService.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\NewAccountServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\AbstractIdEntity.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientInfoDAOImpl.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\TransactionCodeGenerator.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserDAOImpl.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\AbstractDAOImpl.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\TransactionCodesDAOImp.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\NewTransactionServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\Role.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\ServletPaths.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\DefaultServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\ClientDashboardServlet.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\ClientInfo.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\EmailServiceImp.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\commons\ServiceException.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\commons\StringUtils.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\TransactionStatus.java C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserRoleDAO.java
+[STATUS] Compiling 38 Java source files including LoginServlet.java.
+cov-emit-java being launched at: 2018-04-19 09:45:58.295
+2018-04-19T01:45:58.434026Z|cov-internal-capture|1948|info|> EXECUTING: C:\development\cov-analysis-win64-2017.07\bin\cov-translate.exe --fail-stop "c:\program files\java\jdk1.8.0_162\bin\java.exe" --coverity_resp_file=C:\myWebProject\bankwebapp\cov-int\tmp\cej6167048162257125169-args.txt
+2018-04-19T01:45:58.512046Z|cov-internal-capture|1948|info|> EXECUTING: \??\C:\WINDOWS\system32\conhost.exe 0x4
+2018-04-19T01:45:58.709168Z|cov-translate|1524|output|> Using cached template compiler configuration instance C:/myWebProject/bankwebapp/cov-int/emit/DESKTOP-BGLU001/config/0817e36f938d52a1d93ec24b62080655/coverity_config.xml
+2018-04-19T01:45:58.721196Z|cov-translate|1524|output|> COV_TRANSLATE EXPANDED ARGS: "--source" "1.8" "--javac-version" "1.8" "--no-compiler-outputs" "--output-dir" "C:\myWebProject\bankwebapp\target\classes" "--encoding" "windows-1252" "--unsupported-encoding-warning" "--timestamp-before-native-run" "1524102348" "--tolerate-missing-jars" "--invocid-file" "C:\myWebProject\bankwebapp\cov-int\tmp\cej337288001852680012-id.txt" "--classpath" "C:\myWebProject\bankwebapp\target\classes;C:\development\maven-repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\development\maven-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\development\maven-repo\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\development\maven-repo\javax\mail\javax.mail-api\1.6.0\javax.mail-api-1.6.0.jar;C:\development\maven-repo\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\development\maven-repo\javax\activation\activation\1.1\activation-1.1.jar;C:\development\maven-repo\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\development\maven-repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\development\maven-repo\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar" "--sourcepath" "C:\myWebProject\bankwebapp\src\main\java;C:\myWebProject\bankwebapp\target\generated-sources\annotations" "--bootclasspath" "C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\access-bridge-64.jar" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\LoginServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\UserRole.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\commons\Constants.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientTransactionDAOImpl.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\ClientTransaction.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientTransactionDAO.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientInfoDAO.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientAccountDAOImpl.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\util\AccountNumberGenerator.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\TransactionCodesDAO.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\User.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\RegisterServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientAccountDAO.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\ClientAccount.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\security\AuthenticationUtils.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserRoleDAOImpl.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserDAO.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\UserStatus.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\EmailService.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\NewAccountServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\AbstractIdEntity.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\ClientInfoDAOImpl.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\TransactionCodeGenerator.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserDAOImpl.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\AbstractDAOImpl.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\TransactionCodesDAOImp.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\NewTransactionServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\Role.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\ServletPaths.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\DefaultServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\servlet\ClientDashboardServlet.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\ClientInfo.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\EmailServiceImp.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\commons\ServiceException.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\commons\StringUtils.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\model\TransactionStatus.java" "C:\myWebProject\bankwebapp\src\main\java\sg\edu\sutd\bank\webapp\service\UserRoleDAO.java"
+2018-04-19T01:45:58.792836Z|cov-translate|1524|output|> [STATUS] Compiling 38 Java source files.
+2018-04-19T01:45:58.792836Z|cov-translate|1524|output|> [STATUS] Compiling src\main\java\sg\edu\sutd\bank\webapp\servlet\LoginServlet.java, src\main\java\sg\edu\sutd\bank\webapp\model\UserRole.java, src\main\java\sg\edu\sutd\bank\webapp\commons\Constants.java, src\main\java\sg\edu\sutd\bank\webapp\service\ClientTransactionDAOImpl.java, src\main\java\sg\edu\sutd\bank\webapp\model\ClientTransaction.java, src\main\java\sg\edu\sutd\bank\webapp\service\ClientTransactionDAO.java, src\main\java\sg\edu\sutd\bank\webapp\service\ClientInfoDAO.java, src\main\java\sg\edu\sutd\bank\webapp\service\ClientAccountDAOImpl.java, src\main\java\sg\edu\sutd\bank\webapp\util\AccountNumberGenerator.java, src\main\java\sg\edu\sutd\bank\webapp\service\TransactionCodesDAO.java, src\main\java\sg\edu\sutd\bank\webapp\model\User.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\RegisterServlet.java, src\main\java\sg\edu\sutd\bank\webapp\service\ClientAccountDAO.java, src\main\java\sg\edu\sutd\bank\webapp\model\ClientAccount.java, src\main\java\sg\edu\sutd\bank\webapp\security\AuthenticationUtils.java, src\main\java\sg\edu\sutd\bank\webapp\service\UserRoleDAOImpl.java, src\main\java\sg\edu\sutd\bank\webapp\service\UserDAO.java, src\main\java\sg\edu\sutd\bank\webapp\model\UserStatus.java, src\main\java\sg\edu\sutd\bank\webapp\service\EmailService.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\NewAccountServlet.java, src\main\java\sg\edu\sutd\bank\webapp\model\AbstractIdEntity.java, src\main\java\sg\edu\sutd\bank\webapp\service\ClientInfoDAOImpl.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\TransactionCodeGenerator.java, src\main\java\sg\edu\sutd\bank\webapp\service\UserDAOImpl.java, src\main\java\sg\edu\sutd\bank\webapp\service\AbstractDAOImpl.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet.java, src\main\java\sg\edu\sutd\bank\webapp\service\TransactionCodesDAOImp.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\NewTransactionServlet.java, src\main\java\sg\edu\sutd\bank\webapp\model\Role.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\ServletPaths.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\DefaultServlet.java, src\main\java\sg\edu\sutd\bank\webapp\servlet\ClientDashboardServlet.java, src\main\java\sg\edu\sutd\bank\webapp\model\ClientInfo.java, src\main\java\sg\edu\sutd\bank\webapp\service\EmailServiceImp.java, src\main\java\sg\edu\sutd\bank\webapp\commons\ServiceException.java, src\main\java\sg\edu\sutd\bank\webapp\commons\StringUtils.java, src\main\java\sg\edu\sutd\bank\webapp\model\TransactionStatus.java, src\main\java\sg\edu\sutd\bank\webapp\service\UserRoleDAO.java
+2018-04-19T01:45:58.792836Z|cov-translate|1524|output|> C:/development/cov-analysis-win64-2017.07/bin/cov-emit-java.exe --dir=C:\myWebProject\bankwebapp\cov-int --source 1.8 --javac-version 1.8 --no-compiler-outputs --output-dir C:\myWebProject\bankwebapp\target\classes --encoding windows-1252 --unsupported-encoding-warning --timestamp-before-native-run 1524102348 --tolerate-missing-jars --invocid-file C:\myWebProject\bankwebapp\cov-int\tmp\cej337288001852680012-id.txt --classpath C:\myWebProject\bankwebapp\target\classes;C:\development\maven-repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\development\maven-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\development\maven-repo\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\development\maven-repo\javax\mail\javax.mail-api\1.6.0\javax.mail-api-1.6.0.jar;C:\development\maven-repo\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\development\maven-repo\javax\activation\activation\1.1\activation-1.1.jar;C:\development\maven-repo\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\development\maven-repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\development\maven-repo\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar --sourcepath C:\myWebProject\bankwebapp\src\main\java;C:\myWebProject\bankwebapp\target\generated-sources\annotations --bootclasspath "C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\access-bridge-64.jar" src/main/java/sg/edu/sutd/bank/webapp/servlet/LoginServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/UserRole.java src/main/java/sg/edu/sutd/bank/webapp/commons/Constants.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientTransactionDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/model/ClientTransaction.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientTransactionDAO.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientInfoDAO.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientAccountDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/util/AccountNumberGenerator.java src/main/java/sg/edu/sutd/bank/webapp/service/TransactionCodesDAO.java src/main/java/sg/edu/sutd/bank/webapp/model/User.java src/main/java/sg/edu/sutd/bank/webapp/servlet/RegisterServlet.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientAccountDAO.java src/main/java/sg/edu/sutd/bank/webapp/model/ClientAccount.java src/main/java/sg/edu/sutd/bank/webapp/security/AuthenticationUtils.java src/main/java/sg/edu/sutd/bank/webapp/service/UserRoleDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/service/UserDAO.java src/main/java/sg/edu/sutd/bank/webapp/model/UserStatus.java src/main/java/sg/edu/sutd/bank/webapp/service/EmailService.java src/main/java/sg/edu/sutd/bank/webapp/servlet/NewAccountServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/AbstractIdEntity.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientInfoDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/servlet/TransactionCodeGenerator.java src/main/java/sg/edu/sutd/bank/webapp/service/UserDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/service/AbstractDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/servlet/StaffDashboardServlet.java src/main/java/sg/edu/sutd/bank/webapp/service/TransactionCodesDAOImp.java src/main/java/sg/edu/sutd/bank/webapp/servlet/NewTransactionServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/Role.java src/main/java/sg/edu/sutd/bank/webapp/servlet/ServletPaths.java src/main/java/sg/edu/sutd/bank/webapp/servlet/DefaultServlet.java src/main/java/sg/edu/sutd/bank/webapp/servlet/ClientDashboardServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/ClientInfo.java src/main/java/sg/edu/sutd/bank/webapp/service/EmailServiceImp.java src/main/java/sg/edu/sutd/bank/webapp/commons/ServiceException.java src/main/java/sg/edu/sutd/bank/webapp/commons/StringUtils.java src/main/java/sg/edu/sutd/bank/webapp/model/TransactionStatus.java src/main/java/sg/edu/sutd/bank/webapp/service/UserRoleDAO.java 
+2018-04-19T01:45:58.800843Z|cov-translate|1524|output|> Command line with response file: C:/development/cov-analysis-win64-2017.07/bin/cov-emit-java.exe @utf8@C:\myWebProject\bankwebapp\cov-int\tmp\cov-emit-java-1e8f1626f761c530222011e5d774542a-0.cmd_args.txt
+2018-04-19T01:46:02.799427Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-emit-java.exe "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\cov-emit-java-1e8f1626f761c530222011e5d774542a-0.cmd_args.txt"
+2018-04-19T01:46:03.148013Z|cov-translate|1524|output|> Coverity Java Emit version 2017.07 on Windows 10 (Unknown Edition number 101), 64-bit (build 16299)
+2018-04-19T01:46:03.148013Z|cov-translate|1524|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-04-19T01:46:03.148013Z|cov-translate|1524|output|> 
+2018-04-19T01:46:09.837063Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java @utf8@C:/myWebProject/bankwebapp/cov-int/tmp/top-cej-c002fc70b1643fc9c173a3b8032fbb47/args-ciej-c002fc70b1643fc9c173a3b8032fbb47.txt
+2018-04-19T01:46:10.566816Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\cej26f543c002e525ae644bcba0f2592dcd-args-0.txt"
+2018-04-19T01:46:10.760497Z|cov-translate|1524|output|> Parsed bootclasspath: C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext\access-bridge-64.jar
+2018-04-19T01:46:10.760497Z|cov-translate|1524|output|> Parsed classpath: C:\myWebProject\bankwebapp\target\classes;C:\development\maven-repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\development\maven-repo\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\development\maven-repo\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\development\maven-repo\javax\mail\javax.mail-api\1.6.0\javax.mail-api-1.6.0.jar;C:\development\maven-repo\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\development\maven-repo\javax\activation\activation\1.1\activation-1.1.jar;C:\development\maven-repo\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\development\maven-repo\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\development\maven-repo\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar
+2018-04-19T01:46:10.760497Z|cov-translate|1524|output|> Parsed sourcepath: C:\myWebProject\bankwebapp\src\main\java;C:\myWebProject\bankwebapp\target\generated-sources\annotations
+2018-04-19T01:46:10.761517Z|cov-translate|1524|output|> Parsed source file list: src/main/java/sg/edu/sutd/bank/webapp/servlet/LoginServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/UserRole.java src/main/java/sg/edu/sutd/bank/webapp/commons/Constants.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientTransactionDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/model/ClientTransaction.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientTransactionDAO.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientInfoDAO.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientAccountDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/util/AccountNumberGenerator.java src/main/java/sg/edu/sutd/bank/webapp/service/TransactionCodesDAO.java src/main/java/sg/edu/sutd/bank/webapp/model/User.java src/main/java/sg/edu/sutd/bank/webapp/servlet/RegisterServlet.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientAccountDAO.java src/main/java/sg/edu/sutd/bank/webapp/model/ClientAccount.java src/main/java/sg/edu/sutd/bank/webapp/security/AuthenticationUtils.java src/main/java/sg/edu/sutd/bank/webapp/service/UserRoleDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/service/UserDAO.java src/main/java/sg/edu/sutd/bank/webapp/model/UserStatus.java src/main/java/sg/edu/sutd/bank/webapp/service/EmailService.java src/main/java/sg/edu/sutd/bank/webapp/servlet/NewAccountServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/AbstractIdEntity.java src/main/java/sg/edu/sutd/bank/webapp/service/ClientInfoDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/servlet/TransactionCodeGenerator.java src/main/java/sg/edu/sutd/bank/webapp/service/UserDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/service/AbstractDAOImpl.java src/main/java/sg/edu/sutd/bank/webapp/servlet/StaffDashboardServlet.java src/main/java/sg/edu/sutd/bank/webapp/service/TransactionCodesDAOImp.java src/main/java/sg/edu/sutd/bank/webapp/servlet/NewTransactionServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/Role.java src/main/java/sg/edu/sutd/bank/webapp/servlet/ServletPaths.java src/main/java/sg/edu/sutd/bank/webapp/servlet/DefaultServlet.java src/main/java/sg/edu/sutd/bank/webapp/servlet/ClientDashboardServlet.java src/main/java/sg/edu/sutd/bank/webapp/model/ClientInfo.java src/main/java/sg/edu/sutd/bank/webapp/service/EmailServiceImp.java src/main/java/sg/edu/sutd/bank/webapp/commons/ServiceException.java src/main/java/sg/edu/sutd/bank/webapp/commons/StringUtils.java src/main/java/sg/edu/sutd/bank/webapp/model/TransactionStatus.java src/main/java/sg/edu/sutd/bank/webapp/service/UserRoleDAO.java
+2018-04-19T01:46:10.952776Z|cov-translate|1524|output|> Using EDG FE
+2018-04-19T01:46:13.375490Z|cov-translate|1524|output|> Processing 38 source files
+2018-04-19T01:46:37.434201Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\1.txt"
+2018-04-19T01:46:54.825392Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\2.txt"
+2018-04-19T01:46:57.109554Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\3.txt"
+2018-04-19T01:46:57.372574Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\4.txt"
+2018-04-19T01:46:58.891259Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\5.txt"
+2018-04-19T01:46:59.398865Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\6.txt"
+2018-04-19T01:46:59.725482Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\7.txt"
+2018-04-19T01:47:01.154499Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\8.txt"
+2018-04-19T01:47:01.269581Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\9.txt"
+2018-04-19T01:47:01.888506Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\10.txt"
+2018-04-19T01:47:02.044604Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\11.txt"
+2018-04-19T01:47:02.415313Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\12.txt"
+2018-04-19T01:47:02.704743Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\13.txt"
+2018-04-19T01:47:02.912992Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\14.txt"
+2018-04-19T01:47:03.179182Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\15.txt"
+2018-04-19T01:47:03.303272Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\16.txt"
+2018-04-19T01:47:03.740659Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\17.txt"
+2018-04-19T01:47:04.204322Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\18.txt"
+2018-04-19T01:47:05.544375Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\19.txt"
+2018-04-19T01:47:05.903812Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\20.txt"
+2018-04-19T01:47:10.185032Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\21.txt"
+2018-04-19T01:47:10.317129Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\22.txt"
+2018-04-19T01:47:10.430206Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\23.txt"
+2018-04-19T01:47:11.451933Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\24.txt"
+2018-04-19T01:47:11.660290Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\25.txt"
+2018-04-19T01:47:12.525081Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\26.txt"
+2018-04-19T01:47:15.265125Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java-bytecode.exe --dir "C:\myWebProject\bankwebapp\cov-int" "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\top-cej-c002fc70b1643fc9c173a3b8032fbb47\ciejb-d85b54fa1b57db8b90c2cc32842e2b39\27.txt"
+2018-04-19T01:47:17.400357Z|cov-translate|1524|output|> Done; cov-emit-java took 74s
+2018-04-19T01:47:19.170813Z|cov-translate|1524|output|> 
+cov-emit-java terminated at: 2018-04-19 09:47:19.263
+Time spent in cov-emit-java: 80968 ms
+The cov-emit-java output follows:
+First half cov-emit-java exited with code 0.
+Output scan: 40 existing classes, 40 new classes
+Running second half cov-emit-java with arguments: --fail-stop c:\program files\java\jdk1.8.0_162\bin\java.exe --invocid 1 --no-source --compiler-outputs C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\ClientDashboardServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\UserRole.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\TransactionStatus.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\ServiceException.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientAccountDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\TransactionCodesDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\AbstractDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\NewTransactionServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserRoleDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\User.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\TransactionCodeGenerator.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\Role.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientTransaction.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\security\AuthenticationUtils.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientTransactionDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientTransactionDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\StringUtils.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\NewAccountServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\util\AccountNumberGenerator.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\ServletPaths.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\TransactionCodesDAOImp.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\Constants.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\AbstractIdEntity.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserRoleDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientAccountDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet$Decision.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\UserStatus.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientInfoDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\DefaultServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientInfo.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\LoginServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientAccount.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailServiceImp.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\RegisterServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailService.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailServiceImp$1.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientInfoDAOImpl.class
+cov-emit-java being launched at: 2018-04-19 09:47:19.311
+2018-04-19T01:47:19.314293Z|cov-internal-capture|1948|info|> EXECUTING: C:\development\cov-analysis-win64-2017.07\bin\cov-translate.exe --fail-stop "c:\program files\java\jdk1.8.0_162\bin\java.exe" --coverity_resp_file=C:\myWebProject\bankwebapp\cov-int\tmp\cej232394596557915432-args.txt
+2018-04-19T01:47:19.316294Z|cov-internal-capture|1948|info|> EXECUTING: \??\C:\WINDOWS\system32\conhost.exe 0x4
+2018-04-19T01:47:19.456412Z|cov-translate|6320|output|> Using cached template compiler configuration instance C:/myWebProject/bankwebapp/cov-int/emit/DESKTOP-BGLU001/config/0817e36f938d52a1d93ec24b62080655/coverity_config.xml
+2018-04-19T01:47:19.467420Z|cov-translate|6320|output|> COV_TRANSLATE EXPANDED ARGS: "--invocid" "1" "--no-source" "--compiler-outputs" "C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\ClientDashboardServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\UserRole.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\TransactionStatus.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\ServiceException.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientAccountDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\TransactionCodesDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\AbstractDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\NewTransactionServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserRoleDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\User.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\TransactionCodeGenerator.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\Role.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientTransaction.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\security\AuthenticationUtils.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientTransactionDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientTransactionDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\StringUtils.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\NewAccountServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\util\AccountNumberGenerator.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\ServletPaths.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\TransactionCodesDAOImp.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\Constants.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\AbstractIdEntity.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserRoleDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientAccountDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet$Decision.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\UserStatus.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientInfoDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\DefaultServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientInfo.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\LoginServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientAccount.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailServiceImp.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\RegisterServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailService.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailServiceImp$1.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientInfoDAOImpl.class"
+2018-04-19T01:47:19.481412Z|cov-translate|6320|output|> C:/development/cov-analysis-win64-2017.07/bin/cov-emit-java.exe --dir=C:\myWebProject\bankwebapp\cov-int --invocid 1 --no-source --compiler-outputs C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\ClientDashboardServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\UserRole.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\TransactionStatus.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\ServiceException.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientAccountDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\TransactionCodesDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\AbstractDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\NewTransactionServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserRoleDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\User.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\TransactionCodeGenerator.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\Role.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientTransaction.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\security\AuthenticationUtils.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientTransactionDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientTransactionDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\StringUtils.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\NewAccountServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\util\AccountNumberGenerator.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\ServletPaths.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\TransactionCodesDAOImp.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\commons\Constants.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\AbstractIdEntity.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserRoleDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\UserDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientAccountDAOImpl.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\StaffDashboardServlet$Decision.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\UserStatus.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientInfoDAO.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\DefaultServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientInfo.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\LoginServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\model\ClientAccount.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailServiceImp.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\servlet\RegisterServlet.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailService.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\EmailServiceImp$1.class;C:\myWebProject\bankwebapp\target\classes\sg\edu\sutd\bank\webapp\service\ClientInfoDAOImpl.class 
+2018-04-19T01:47:19.486433Z|cov-translate|6320|output|> Command line with response file: C:/development/cov-analysis-win64-2017.07/bin/cov-emit-java.exe @utf8@C:\myWebProject\bankwebapp\cov-int\tmp\cov-emit-java-d46108a0e6320deb20f4e3544fced718-0.cmd_args.txt
+2018-04-19T01:47:19.489416Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-emit-java.exe "@utf8@C:\myWebProject\bankwebapp\cov-int\tmp\cov-emit-java-d46108a0e6320deb20f4e3544fced718-0.cmd_args.txt"
+2018-04-19T01:47:19.508433Z|cov-translate|6320|output|> Coverity Java Emit version 2017.07 on Windows 10 (Unknown Edition number 101), 64-bit (build 16299)
+2018-04-19T01:47:19.508433Z|cov-translate|6320|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-04-19T01:47:19.508433Z|cov-translate|6320|output|> 
+2018-04-19T01:47:19.980467Z|cov-internal-capture|1948|info|> EXECUTING: C:/development/cov-analysis-win64-2017.07/bin/cov-internal-emit-java @utf8@C:/myWebProject/bankwebapp/cov-int/tmp/top-cej-03dc9fee84181cf5d1837f308f6999da/args-ciej-03dc9fee84181cf5d1837f308f6999da.txt
+2018-04-19T01:47:21.052651Z|cov-translate|6320|output|> Done; cov-emit-java took 2s
+2018-04-19T01:47:21.085676Z|cov-translate|6320|output|> 
+cov-emit-java terminated at: 2018-04-19 09:47:21.095
+Time spent in cov-emit-java: 1784 ms
+The cov-emit-java output follows:
+Second half cov-emit-java exited with code 0.
+2018-04-19T01:47:21.264801Z|cov-internal-capture|1948|info|> EXECUTING: cmd  /C exit /B 0
+2018-04-19T01:47:22.583904Z|cov-build|11684|info|> 
+2018-04-19T01:47:22.583904Z|cov-build|11684|info|> Build time (cov-build overall): 00:02:35.615128
+2018-04-19T01:47:22.583904Z|cov-build|11684|info|> 
+2018-04-19T01:47:22.634204Z|cov-build|11684|info|> Build time (Java emits total): 00:01:29.493871
+2018-04-19T01:47:22.634204Z|cov-build|11684|info|> 
+2018-04-19T01:47:23.035749Z|cov-build|11684|info|> Emitted 38 Java compilation units (100%) successfully
+2018-04-19T01:47:23.036773Z|cov-build|11684|info|> 
+2018-04-19T01:47:23.047818Z|cov-build|11684|info|> 38 Java compilation units (100%) are ready for analysis
+2018-04-19T01:47:23.062104Z|cov-build|11684|info|> The cov-build utility completed successfully.
+2018-04-19T01:47:23.405466Z|cov-build|11684|info|> 

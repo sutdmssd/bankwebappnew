@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "coverity_config.dtd">
+<coverity>
+<!-- Version 2017.07 -->
+    <cit_version>1</cit_version>
+    <config>
+      <include>$CONFIGDIR$\java-config-0\coverity_config.xml</include>
+      <include>$CONFIGDIR$\javac-config-0\coverity_config.xml</include>
+      <include>$CONFIGDIR$\template-jsp-config-0\coverity_config.xml</include>
+      <include>$CONFIGDIR$\template-android-config-0\coverity_config.xml</include>
+      <include>$CONFIGDIR$\template-web-app-config-config-0\coverity_config.xml</include>
+      <include>$CONFIGDIR$\javaw-config-0\coverity_config.xml</include>
+    </config>
+</coverity>
+
